@@ -7,25 +7,37 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
-
-/ {
-    behaviors {
-        pkey: tap_dance_mod_tap_0 {
+/{
+    behaviors
+    {
+      
+        pkey: pkey{
             compatible = "zmk,behavior-tap-dance";
             label = "PKEY";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&mt P LBKT>, <&mt MINUS LBRC>;
         };
-         bkspc: tap_dance_mod_tap_1 {
+         bkspc: bkspc{
             compatible = "zmk,behavior-tap-dance";
-            label = "BACKSPACE";
+            label = "BKSPC";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&mt BKSP RBKT>, <&mt EQUAL RBRC>;
         };
     };
-        keymap {
+
+    combos
+    {
+        compatible = "zmk,combos";
+
+        new_combo
+        {
+            bindings = <&trans>;
+            key - positions = <>;
+        };
+    };
+ keymap {
                 compatible = "zmk,keymap";
 
                 default_layer {
@@ -69,4 +81,6 @@
                         >;
                 };
         };
+   
 };
+

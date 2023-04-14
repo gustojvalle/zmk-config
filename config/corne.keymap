@@ -38,7 +38,7 @@
    &kp ESC   &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &pkey    &bkspc
    &kp TAB &kp A &kp S &kp D &kp F &kp G   &kp H &kp J  &kp K     &kp L   &kp SEMI &kp RET  
    &kp LSHFT &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp RSHFT
-                  &kp LCTRL &kp LGUI &mo 1   &mo 2 &kp SPACE &kp BKSPC
+                  &kp LCTRL &kp LGUI &mo 1   &mo 2 &kp SPACE &kp BKSP
                         >;
                 };
                 lower_layer {

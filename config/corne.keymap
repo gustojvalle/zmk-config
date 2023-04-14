@@ -26,20 +26,8 @@
             bindings = <&mt BKSP RBKT>, <&mt EQUAL RBRC>;
         };
     };
-
-    combos
-    {
-        compatible = "zmk,combos";
-
-        new_combo
-        {
-            bindings = <&trans>;
-            key - positions = <>;
-        };
-    };
  keymap {
                 compatible = "zmk,keymap";
-
                 default_layer {
 // -----------------------------------------------------------------------------------------
 // |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BKSP |

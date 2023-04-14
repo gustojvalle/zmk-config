@@ -9,14 +9,14 @@
 #include <dt-bindings/zmk/bt.h>
 / {
     behaviors {
-        pkey: tap_dance_mod_tap {
+        pkey: tap_dance_mod_tap_0 {
             compatible = "zmk, pkey";
             label = "PKEY";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&mt P LBKT>, <&mt MINUS LBRC>;
         };
-         bkspc: tap_dance_mod_tap {
+         bkspc: tap_dance_mod_tap_1 {
             compatible = "z,bksp";
             label = "BACKSPACW";
             #binding-cells = <0>;

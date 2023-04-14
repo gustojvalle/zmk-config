@@ -11,14 +11,14 @@
     behaviors {
         td_pkey: tap_dance_mod_tap {
             compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_MOD_TAP";
+            label = "PKEY";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&mt P LBKT>, <&mt MINUS LBRC>;
         };
          td_bkspc: tap_dance_mod_tap {
             compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_MOD_TAP";
+            label = "BACKSPACW";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&mt BKSP RBKT>, <&mt EQUAL RBRC>;

@@ -11,15 +11,15 @@
 / {
     behaviors {
         pkey: tap_dance_mod_tap_0 {
-            compatible = "zmk, pkey";
+            compatible = "zmk,behavior-tap-dance";
             label = "PKEY";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&mt P LBKT>, <&mt MINUS LBRC>;
         };
          bkspc: tap_dance_mod_tap_1 {
-            compatible = "z,bksp";
-            label = "BACKSPACW";
+            compatible = "zmk,behavior-tap-dance";
+            label = "BACKSPACE";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&mt BKSP RBKT>, <&mt EQUAL RBRC>;

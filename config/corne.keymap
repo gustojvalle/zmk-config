@@ -24,7 +24,6 @@
             bindings = <&mt BKSP RBKT>, <&mt EQUAL RBRC>;
         };
     };
-/ {
         keymap {
                 compatible = "zmk,keymap";
 

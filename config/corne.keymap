@@ -69,14 +69,14 @@
             label = "LAYER_ONE";
             #binding-cells = <0>;
             tapping-term-ms = <190>;
-            bindings = <&lt ONE <&sl 1>>,  <&tog 1>;
+            bindings = <&lt ONE &sl 1>,  <&tog 1>;
         };
         layer_two:layer_two{
             compatible = "zmk,behavior-tap-dance";
             label = "LAYER_TWO";
             #binding-cells = <0>;
             tapping-term-ms = <190>;
-            bindings = <&lt TWO <&sl 2>>,  <&tog 2>;
+            bindings = <&lt TWO &sl 2>,  <&tog 2>;
         };
         pkey: pkey{
             compatible = "zmk,behavior-tap-dance";
@@ -115,10 +115,10 @@
 // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &tog 0  &kp F1       &kp F2       &kp F3       &kp F4       &kp F5         &kp LNLCK &kp N7   &kp N8 &kp N9    &kp MINUS &kp BSPC
+   &tog 0  &kp F1       &kp F2       &kp F3       &kp F4       &kp F5         &kp LNLCK &kp N7   &kp N8 &kp N9    &kp MINUS &caps_word
    &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &kp N0 &kp N4 &kp N5 &kp N6 &kp TILDE  &kp PIPE
    &sk LSHFT  &rgb_ug RGB_TOG   &rgb_ug RGB_HUI   &rgb_ug RGB_HUD &rgb_ug RGB_BRD &rgb_ug RGB_BRI  &kp MINUS   &kp N1   &kp N2 &kp N3    &kp  BSLH &sk RSHFT         
-                          	        &kp LGUI     &rgb_ug RGB_EFF    &tog 1 &tog 1 &kp SPACE &kp RALT
+                          	        &kp LALT     &rgb_ug RGB_EFF    &tog 1 &tog 1 &kp SPACE &kp BSPC
                         >;
                 };
 
@@ -132,7 +132,7 @@
    &kp GRAVE &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT   &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR &kp EQUAL              
    &kp LCTRL &bt BT_CLR &bt BT_PRV &bt BT_NXT   &trans   &trans      &kp LEFT &kp DOWN &kp UP        &kp RIGHT &kp SQT &kp GRAVE
    &sk LSHFT &caps_word   &trans &trans   &trans   &trans      &kp UNDER &kp PLUS  &kp LBRC        &kp RBRC &kp PIPE &kp TILDE
-                    	     &kp LCTRL &kp SPACE &tog 2 &tog 2 &kp RCTRL    &kp RALT
+                    	     &kp LCTRL &kp SPACE &tog 2 &tog 2 &kp RCTRL    &kp LALT
                         >;
                 };
         };

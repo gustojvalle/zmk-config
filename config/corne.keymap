@@ -16,28 +16,24 @@
     {
         layer_one:layer_one{
             compatible = "zmk,behavior-tap-dance";
-            label = "LAYER_ONE";
             #binding-cells = <0>;
             tapping-term-ms = <190>;
             bindings = <&lt 1 &sl 1>,  <&tog 1>;
         };
         layer_two:layer_two{
             compatible = "zmk,behavior-tap-dance";
-            label = "LAYER_TWO";
             #binding-cells = <0>;
             tapping-term-ms = <190>;
             bindings = <&lt 2 &sl 2>,  <&tog 2>;
         };
         pkey: pkey{
             compatible = "zmk,behavior-tap-dance";
-            label = "PKEY";
             #binding-cells = <0>;
             tapping-term-ms = <150>;
             bindings = <&mt LBKT P>, <&mt LBRC MINUS>;
         };
          bkspc: bkspc{
             compatible = "zmk,behavior-tap-dance";
-            label = "BKSPC";
             #binding-cells = <0>;
             tapping-term-ms = <150>;
             bindings = <&mt RBKT BKSP>, <&mt RBRC EQUAL>;

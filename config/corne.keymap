@@ -62,16 +62,16 @@
 /{
     behaviors
     {
-        lone:lone{
+        layer_one:layer_one{
             compatible = "zmk,behavior-tap-dance";
-            label = "lone";
+            label = "LAYER_ONE";
             #binding-cells = <0>;
             tapping-term-ms = <190>;
             bindings = <&mt &mo 1 &sl 1>,  <&tog 1>;
         };
-        ltwo :ltwo{
+        layer_two:layer_two{
             compatible = "zmk,behavior-tap-dance";
-            label = "LTWO";
+            label = "LAYER_TWO";
             #binding-cells = <0>;
             tapping-term-ms = <190>;
             bindings = <&mt &mo 2 &sl 2>,  <&tog 2>;
@@ -103,7 +103,7 @@
    &kp ESC   &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &pkey    &bkspc
    &kp TAB &kp A &kp S &kp D &kp F &kp G   &kp H &kp J  &kp K     &kp L   &kp SEMI &kp RET  
    &sk LSHFT &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &sk RSHFT
-                  &kp LCTRL &sk LGUI &lone &ltwo &kp SPACE &kp BKSP
+                  &kp LCTRL &sk LGUI &layer_one   &layer_two &kp SPACE &kp BKSP
                         >;
                 };
                 lower_layer {

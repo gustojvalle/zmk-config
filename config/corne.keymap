@@ -67,14 +67,14 @@
             label = "LAYER_ONE";
             #binding-cells = <0>;
             tapping-term-ms = <190>;
-            bindings = <&mt <&mo 1 &sk 1>>,  &tog 1;
+            bindings = <&mt &mo 1 &sk 1>,  &tog 1;
         };
         layer_two:layer_two{
             compatible = "zmk,behavior-tap-dance";
             label = "LAYER_TWO";
             #binding-cells = <0>;
             tapping-term-ms = <190>;
-            bindings = <&mt <&mo 2 &sk 2>>,  &tog 2;
+            bindings = <&mt &mo 2 &sk 2>,  &tog 2;
         };
         pkey: pkey{
             compatible = "zmk,behavior-tap-dance";

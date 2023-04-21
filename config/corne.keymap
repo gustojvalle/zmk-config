@@ -12,32 +12,32 @@
 /{
     behaviors
     {
-        layerone:layerone{
+        layerone: layerone{
             compatible = "zmk,behavior-tap-dance";
             label = "LAYERONE";
             #binding-cells = <0>;
-            tapping-term-ms = <190>;
+            tapping-term-ms = <170>;
             bindings = <&lt  1 &sl 1>,  <&tog 1>;
         };
-        layertwo:layertwo{
+        layertwo: layertwo{
             compatible = "zmk,behavior-tap-dance";
             label = "LAYERTWO";
             #binding-cells = <0>;
-            tapping-term-ms = <190>;
+            tapping-term-ms = <170>;
             bindings = <&lt  2 &sl 2>,  <&tog 2>;
         };
         pkey: pkey{
             compatible = "zmk,behavior-tap-dance";
             label = "PKEY";
             #binding-cells = <0>;
-            tapping-term-ms = <150>;
+            tapping-term-ms = <170>;
             bindings = <&mt LBKT P>, <&mt LBRC MINUS>;
         };
          bkspc: bkspc{
             compatible = "zmk,behavior-tap-dance";
             label = "BKSPC";
             #binding-cells = <0>;
-            tapping-term-ms = <150>;
+            tapping-term-ms = <170>;
             bindings = <&mt RBKT BKSP>, <&mt RBRC EQUAL>;
         };
     };

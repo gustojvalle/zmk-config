@@ -66,7 +66,7 @@
             compatible = "zmk,behavior-hold-tap";
             label = "STICKYMT";
             #binding-cells = <2>;
-            tapping-term-ms = <150>;
+            tapping-term-ms = <180>;
             quick-tap-ms = <0>;
             flavor = "tap-preferred";
             bindings = <&mo>, <&sl>;
@@ -89,15 +89,15 @@
             compatible = "zmk,behavior-tap-dance";
             label = "LONE";
             #binding-cells = <0>;
-            tapping-term-ms = <150>;
+            tapping-term-ms = <180>;
             bindings = <&stickymt 1 1>, <&tog 1>;
         };
         ltwo:ltwo{
             compatible = "zmk,behavior-tap-dance";
             label = "LTWO";
             #binding-cells = <0>;
-            tapping-term-ms = <150>;
-            bindings = <&stickymt 2 2>, <&tog 1>;
+            tapping-term-ms = <180>;
+            bindings = <&stickymt 2 2>, <&tog 2>;
         };
     };
  keymap {
@@ -125,7 +125,7 @@
    &tog 0  &kp F1       &kp F2       &kp F3       &kp F4       &kp F5         &kp LNLCK &kp N7   &kp N8 &kp N9    &kp MINUS &kp BSPC
    &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &kp N0 &kp N4 &kp N5 &kp N6 &kp TILDE  &kp PIPE
    &sk LSHFT  &rgb_ug RGB_TOG   &rgb_ug RGB_HUI   &rgb_ug RGB_HUD &rgb_ug RGB_BRD &rgb_ug RGB_BRI  &kp MINUS   &kp N1   &kp N2 &kp N3    &kp  BSLH &sk RSHFT         
-                          	        &kp LGUI     &rgb_ug RGB_EFF    &tog 1 &tog 2 &kp SPACE &kp RALT
+                          	        &kp LGUI     &rgb_ug RGB_EFF    &tog 1 &tog 1 &kp SPACE &kp RALT
                         >;
                 };
 

@@ -97,7 +97,7 @@
             label = "LTWO";
             #binding-cells = <0>;
             tapping-term-ms = <150>;
-            bindings = <&stikymt 2 2>, <&tog 1>;
+            bindings = <&stickymt 2 2>, <&tog 1>;
         };
     };
  keymap {

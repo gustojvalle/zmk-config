@@ -66,14 +66,14 @@
             label = "PKEY";
             #binding-cells = <0>;
             tapping-term-ms = <150>;
-            bindings = <&mt <&mo 1 &sk 1>>,  &tog 1;
+            bindings = <&mt <&mo 1 &sk 1>>,  <&tog 1>;
         };
         laye_two:l_two{
             compatible = "zmk,behavior-tap-dance";
             label = "PKEY";
             #binding-cells = <0>;
             tapping-term-ms = <150>;
-            bindings = <&mt <&mo 2 &sk 2>>,  &tog 2;
+            bindings = <&mt <&mo 2 &sk 2>>,  <&tog 2>;
         };
         pkey: pkey{
             compatible = "zmk,behavior-tap-dance";

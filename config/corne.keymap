@@ -61,14 +61,14 @@
 /{
     behaviors
     {
-        laye_one:l_one{
+        layer_one:layer_one{
             compatible = "zmk,behavior-tap-dance";
             label = "PKEY";
             #binding-cells = <0>;
             tapping-term-ms = <150>;
             bindings = <&mt &mo 1 &sk 1>,  <&tog 1>;
         };
-        laye_two:l_two{
+        layer_two:layer_two{
             compatible = "zmk,behavior-tap-dance";
             label = "PKEY";
             #binding-cells = <0>;

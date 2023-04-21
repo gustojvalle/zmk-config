@@ -53,7 +53,7 @@
    &kp ESC   &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &pkey    &bkspc
    &kp TAB &kp A &kp S &kp D &kp F &kp G   &kp H &kp J  &kp K     &kp L   &kp SEMI &kp RET  
    &sk LSHFT &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &sk RSHFT
-                  &kp LCTRL &sk LGUI &layerone   &layertwo &kp SPACE &kp BKSP
+                  &kp LCTRL &sk LGUI &layerone   &layertwo &kp SPACE &kp BSPC
                         >;
                 };
                 lower_layer {
@@ -80,7 +80,7 @@
    &kp GRAVE &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT   &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR &kp EQUAL              
    &kp LCTRL &bt BT_CLR &bt BT_PRV &bt BT_NXT   &trans   &trans      &kp LEFT &kp DOWN &kp UP        &kp RIGHT &kp SQT &kp GRAVE
    &sk LSHFT &caps_word   &trans &trans   &trans   &trans      &kp UNDER &kp PLUS  &kp LBRC        &kp RBRC &kp PIPE &kp TILDE
-                    	     &kp LCTRL &kp SPACE &tog 2 &tog 2 &kp RCTRL    &kp BKSP
+                    	     &kp LCTRL &kp SPACE &tog 2 &tog 2 &kp RCTRL    &kp BSPC
                         >;
                 };
         };

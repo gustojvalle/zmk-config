@@ -76,7 +76,6 @@
             tapping-term-ms = <150>;
             bindings = <&mt RBKT BKSP>, <&mt RBRC EQUAL>;
         };
-        {
         lone:lone{
             compatible = "zmk,behavior-tap-dance";
             label = "LONE";
@@ -86,7 +85,6 @@
         };
         
 
-        };
     };
  keymap {
                 compatible = "zmk,keymap";

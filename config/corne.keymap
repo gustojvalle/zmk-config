@@ -67,7 +67,7 @@
             label = "LAYER_ONE";
             #binding-cells = <0>;
             tapping-term-ms = <190>;
-            bindings = <&lt 1 1 &sl 1>,  <&tog 1>;
+            bindings = <&lt 1 &sl 1>,  <&tog 1>;
         };
         layer_two:layer_two{
             compatible = "zmk,behavior-tap-dance";
